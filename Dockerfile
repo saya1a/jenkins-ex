@@ -1,3 +1,3 @@
 FROM node:16-alpine
 
-RUN apk add make
+RUN apk add --update --verbose --no-cache grep bash curl

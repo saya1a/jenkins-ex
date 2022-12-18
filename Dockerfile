@@ -1,3 +1,3 @@
 FROM node:16-alpine
 
-RUN apk add -U make
+RUN apk add make
